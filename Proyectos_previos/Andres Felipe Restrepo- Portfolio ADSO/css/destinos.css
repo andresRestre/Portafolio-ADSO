@@ -1,0 +1,152 @@
+#amazonas {
+    grid-column: 2/4;
+    grid-row: 3/6;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+#vidamazonas {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#Quindio {
+    grid-column: 6/8;
+    grid-row: 3/6;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+#vidQuindio {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#Pacifico {
+    grid-column: 6/8;
+    grid-row: 7/10;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+#vidPacifico {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#Sanandres {
+    grid-column: 2/4;
+    grid-row: 7/10;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+#vidSanandres {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#flecha1{
+    grid-column: 4/6;
+    grid-row: 3/5;
+    background-image: url('./fderecha.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+#flecha2{
+    grid-column: 7/8;
+    grid-row: 5/8;
+    background-image: url('./fabajo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+#flecha3{
+    grid-column: 4/6;
+    grid-row: 8/10;
+    background-image: url('./fizquierda.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+#flecha4{
+    grid-column: 2/3;
+    grid-row: 5/8;
+    background-image: url('./farriba.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    background: none;
+    color: rgba(47, 192, 228, 0.952);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+
+#disfruta{
+    grid-column: 3/7;
+    grid-row: 6/7;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tamazonas{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tquindio{
+    grid-column: 8/9;
+    grid-row: 4/5;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tpacifico{
+    grid-column: 8/9;
+    grid-row: 8/9;
+    text-align: center;
+    font-weight: bolder;
+
+
+
+}
+
+#tsanandres{
+    grid-column: 1/2;
+    grid-row: 8/9;
+    text-align: center;
+    font-weight: bolder;
+}
+

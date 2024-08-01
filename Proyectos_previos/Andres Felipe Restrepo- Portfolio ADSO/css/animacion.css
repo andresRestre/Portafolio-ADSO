@@ -1,0 +1,11 @@
+div{
+    width: 110px;
+    height: 420px;
+    position: relative;
+    background-image: url('./stopmotion.png');
+    -webkit-animation: miAnimacion .8s steps(5) infinite;
+}
+@-webkit-keyframes miAnimacion{
+    0%{background-position: 0px;}
+    100%{background-position:-598px ;}
+}

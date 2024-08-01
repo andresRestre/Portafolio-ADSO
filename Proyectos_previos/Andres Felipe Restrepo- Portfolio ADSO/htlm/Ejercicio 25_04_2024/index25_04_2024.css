@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-y: visible;   
+}
+
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 6rem;
+}
+p{
+    font-size: 2rem;
+}
+li{
+    font-size: 1.5rem;
+}
+button{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigator{
+    display:flex;
+    position: fixed;
+    width: 100%;
+}
+.navigator_logo{
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigator img{
+    width: auto;
+    height: 90px;
+}
+
+.navigator_list1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.navigator_list1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navigator_list1 li{
+    margin: 10px 10px;
+    padding: 10px 15px;
+}
+.navigator_list1 li:hover{
+    border-radius: 10px;
+    backdrop-filter: blur(500px);
+}
+.navigator_list1 ul:nth-child(1){
+    width: 70%;
+    justify-content: center;
+
+}
+.navigator_list1 ul:nth-child(2){
+    width: 20%;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 92vh;
+}
+.info__text{
+    padding: 65px 0px 50vh 0px;
+
+}
+ .info__buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .info__buttons button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+ }
+ .info__buttons button:nth-child(1){
+    background-color: #424949;
+    font-weight: bolder;
+    color: white;
+ }
+ .arrow{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .container{
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    width: 100%;
+ }
+.container section{
+    height: 100%;
+    scroll-snap-align: start;
+    z-index: -1;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    transition:background-image 0.5s ease-in-out
+}
+section:nth-child(1){
+    background-image: url('./img/teslaS.jpg');
+    scroll-snap-align: end;
+}
+section:nth-child(2){
+    background-image: url('./img/tesla3.png');
+}
+section:nth-child(3){
+    background-image: url('./img/teslaY.jpg');
+}
+section:nth-child(4){
+    background-image: url('./img/solar-roof.jpg');
+}
+section:nth-child(5){
+    background-image: url('./img/solar-panels.jpg');
+}

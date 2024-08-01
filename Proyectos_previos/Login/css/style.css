@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+#contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    background-image: url('./img/dubai.png');
+    background-size: cover;
+
+}
+
+#contenedorFormulario{
+    grid-column: 4/8;
+    grid-row: 3/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(30, 42, 53, 0.671);
+    border-radius: 3rem;
+    border-color: black;
+    border: 1%;
+}
+#formulario{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#divLogin{
+    height: 23%;
+    width: 100%;
+    padding-top: 5%;
+}
+#divNickname{
+    height: 23%;
+    width: 100%;
+    opacity: 90%;
+}
+#usuarioid{
+    width: 60%;
+    height: 25%;
+    text-align: center;
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.4s;
+
+}
+#usuarioid:hover{
+    scale: 1.2;
+}
+#divContraseña{
+    height: 23%;
+    width: 100%;
+    opacity: 90%;
+}
+#passwordid{
+    width: 60%;
+    height: 25%;
+    text-align: center;
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.4s;
+
+}
+#passwordid:hover{
+    scale: 1.2;
+}
+#divIngresar{
+    height: 23%;
+    width: 100%;
+    padding-top: 5%;
+}
+#BotonIniciar{
+    width: 40%;
+    height: 40%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(207, 207, 207, 0.164);
+    border-radius: 1rem;
+    border: none;
+    transition: all 0.3s;
+
+}
+#BotonIniciar:hover{
+    scale: 1.2;
+
+}
+
+#resgistrate{
+    font-size: small;
+}
+#linkresgistro{
+    color: rgba(87, 185, 185, 0.808);
+}
